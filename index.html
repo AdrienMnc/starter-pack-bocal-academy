@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sophie Photo - Vos photos, ma passion</title>
+    <link rel="stylesheet" type="text/css" href="../starter/style/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <img class="logo" src="logo.png" />
+
+      <ul class="link2">
+        <li><a href="#informations">Qui suis-je?</a></li>
+        <li><a href="#creations">Mes créations</a></li>
+        <li><a href="#pricing">Tarifs</a></li>
+        <li><a href="#contact">Contactez-moi</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="top">
+        <h1 class="colo">Sophie Photographies</h1>
+        <p class="colo">Vos photos, ma passion.</p>
+      </div>
+    </header>
+
+    <section id="informations">
+      <div class="text-left">
+        <h2>Qui suis-je?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          accumsan faucibus risus. Cras ac purus metus. Maecenas sit amet
+          iaculis nulla. Ut ornare arcu non lectus sodales suscipit ut eget
+          turpis.
+          <br />
+          <br />
+          Nulla volutpat tellus nec mi sodales condimentum. Nam vulputate, dolor
+          et facilisis maximus, leo odio mollis odio, ac efficitur nibh magna
+          sit amet orci. Vestibulum nunc nisi, pulvinar in blandit sit amet,
+          vehicula id quam. Nam est nisi, imperdiet vitae turpis eget, imperdiet
+          molestie enim. Suspendisse sit amet sollicitudin nibh. Nullam mattis
+          metus sed mattis porta. Aenean at accumsan sem, ut rhoncus augue.
+          <br />
+          <br />
+          Duis egestas rhoncus erat, a vestibulum nunc accumsan eu. Vestibulum a
+          lacus et felis vehicula elementum. Aliquam tempus venenatis purus nec
+          auctor. In rutrum ut neque sit amet faucibus. Phasellus ut euismod
+          tortor, sit amet imperdiet nunc. Aenean fringilla nisi ac nibh
+          imperdiet faucibus. Ut cursus laoreet scelerisque.
+          <br />
+          <br />
+        </p>
+        <div class="signature">- Sophie</div>
+      </div>
+
+      <div class="right-sophie"></div>
+    </section>
+
+    <section id="creations">
+      <h2 class="my-creations">Mes créations</h2>
+      <ul class="all-pic">
+        <li class="one-pic"><img src="picture1.jpg" /></li>
+        <li class="one-pic"><img src="picture2.jpg" /></li>
+        <li class="one-pic"><img src="picture3.jpg" /></li>
+        <li class="one-pic"><img src="picture5.jpg" /></li>
+        <li class="one-pic"><img src="picture7.jpg" /></li>
+        <li class="one-pic"><img src="picture8.jpg" /></li>
+      </ul>
+    </section>
+
+    <section id="pricing">
+      <h2 class="title-price">Tarifs</h2>
+
+      <table class="price-table">
+        <thead class="en-tete">
+          <!--En tête-->
+
+          <tr>
+            <th>Prestation</th>
+            <th>Description</th>
+            <th>Durée</th>
+            <th>Prix</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!--Ligne 1-->
+          <tr>
+            <td>Portrait simple</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+            <td>X min.</td>
+            <td>X € TTC</td>
+          </tr>
+          <!--Ligne 2-->
+          <tr>
+            <td>Portrait professionnel (3 prises)</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+            <td>X min.</td>
+            <td>X € TTC</td>
+          </tr>
+          <!--Ligne 3-->
+          <tr>
+            <td>Photo de groupe</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+            <td>X min.</td>
+            <td>X € TTC</td>
+          </tr>
+          <!--Ligne 4-->
+          <tr>
+            <td>Mariage</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+            <td>X min.</td>
+            <td>X € TTC</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2 class="contact-me">Contactez-moi</h2>
+
+      <form class="forme">
+        <label class="allin" for="firstname">Prénom </label>
+        <input type="text" id="firstname" name="Prénom" required />
+
+        <label class="allin" for="Name">Nom </label>
+        <input type="text" id="Name" name="Nom" required />
+
+        <label class="allin" for="Email">Email </label>
+        <input type="email" id="Email" name="Email" required />
+
+        <label class="allin" for="Message">Message: </label>
+        <textarea name="Message" id="Message" required></textarea>
+
+        <br />
+
+        <input type="checkbox" id="consent" name="consentement" />
+        <label for="consent">
+          J'accepte que mes données ci-dessus soient traitées à des fins de
+          prises de contact commerciales.
+        </label>
+        <br />
+
+        <button class="boutton">Envoyer</button>
+
+        <br />
+      </form>
+    </section>
+
+    <footer class="foot">&copy; Sophie Photographies 2020</footer>
+  </body>
+</html>

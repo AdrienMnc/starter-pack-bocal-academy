@@ -1,0 +1,204 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 3px 10px rgb(59, 59, 59);
+  padding: 5px;
+  z-index: 100;
+  background-color: white;
+}
+
+/* ici on modifie les liens*/
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+.link2 {
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0px;
+}
+
+/* photo du top + encadré */
+header {
+  min-height: 100vh;
+  background-image: url("../top.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+header .top h1 {
+  font-size: 80px;
+}
+
+header .top p {
+  font-size: 50px;
+  font-style: italic;
+}
+
+header .colo {
+  position: relative;
+  top: 250px;
+  text-align: center;
+  color: white;
+}
+
+/* section informations*/
+#informations {
+  display: flex;
+  background-color: white;
+  min-height: 70vh;
+}
+
+#informations .signature {
+  text-align: right;
+}
+#informations .text-left {
+  padding: 20px 30px;
+  flex: 1;
+}
+
+#informations .right-sophie {
+  background-image: url(../sophie.jpg);
+  background-size: cover;
+  padding: 20px 30px;
+  flex: 1;
+}
+
+/* section creations*/
+#creations {
+  background-color: black;
+  padding: 20px 30px;
+}
+
+#creations .my-creations {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+}
+#creations .all-pic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#creations .all-pic .one-pic {
+  flex: 1;
+  list-style: none;
+  flex-basis: 300px;
+  padding: 20px;
+}
+
+#creations .all-pic .one-pic img {
+  width: 100%;
+}
+
+/* section pricing*/
+#pricing {
+  background-color: white;
+  padding: 20px 30px 50px;
+}
+
+#pricing .title-price {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#pricing .price-table {
+  border-collapse: collapse;
+  position: relative;
+  left: 300px;
+}
+
+#pricing .price-table th,
+#pricing .price-table td {
+  border: 1px solid #151515;
+  padding: 20px;
+}
+
+#pricing .en-tete {
+  background-color: black;
+  color: white;
+}
+
+/* section contact*/
+#contact {
+  background-color: black;
+  padding: 20px 30px;
+}
+
+#contact h2 {
+  color: white;
+  text-align: center;
+}
+
+#contact .forme {
+  margin: auto;
+  width: 50vw;
+}
+
+#contact .forme label {
+  color: white;
+}
+#contact .forme .allin {
+  display: block;
+  margin-bottom: 10px;
+}
+#contact .forme input[type="text"],
+#contact .forme input[type="email"],
+#contact .forme textarea {
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+}
+#contact .forme .boutton {
+  background-color: transparent;
+  color: white;
+  width: 100px;
+  border: solid 2px;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  margin: 20px auto;
+  font-size: 15px;
+}
+
+#contact .forme .boutton:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(70, 67, 67);
+  color: white;
+  border-bottom-style: solid white 1000px;
+}
